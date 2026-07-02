@@ -33,22 +33,38 @@
   </tr>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=HotRiceNoodles&show_icons=true&theme=white&hide_border=true&count_private=true&card_width=320" alt="stats" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/3-stats.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/3-stats.svg" />
+        <img src="./profile-summary-card-output/github/3-stats.svg" alt="stats" />
+      </picture>
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HotRiceNoodles&layout=compact&theme=white&hide_border=true&card_width=320" alt="top langs" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/1-repos-per-language.svg" />
+        <img src="./profile-summary-card-output/github/1-repos-per-language.svg" alt="top langs" />
+      </picture>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HotRiceNoodles&theme=white&hide_border=true" alt="streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=HotRiceNoodles&hide_border=true&background=00000000&ring=4EC9B0&fire=FF6B6B&currStreakNum=e6edf3&sideNums=9198a1&currStreakLabel=4EC9B0&dates=9198a1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=HotRiceNoodles&hide_border=true&background=00000000&ring=4EC9B0&fire=FF6B6B&currStreakNum=2f363d&sideNums=586069&currStreakLabel=4EC9B0&dates=586069" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=HotRiceNoodles&hide_border=true&background=00000000&ring=4EC9B0&fire=FF6B6B&currStreakNum=2f363d&sideNums=586069&currStreakLabel=4EC9B0&dates=586069" alt="streak" />
+  </picture>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HotRiceNoodles&theme=white&hide_border=true&area=true" alt="activity graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=HotRiceNoodles&hide_border=true&area=true&bg_color=00000000&color=9198a1&line=4EC9B0&point=4EC9B0" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=HotRiceNoodles&hide_border=true&area=true&bg_color=00000000&color=586069&line=4EC9B0&point=4EC9B0" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=HotRiceNoodles&hide_border=true&area=true&bg_color=00000000&color=586069&line=4EC9B0&point=4EC9B0" alt="activity graph" />
+  </picture>
 </div>
 
 ---
@@ -84,7 +100,11 @@
 ### 🐍 贡献贪吃蛇
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/HotRiceNoodles/HotRiceNoodles/output/github-snake-dark.svg" alt="snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HotRiceNoodles/HotRiceNoodles/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HotRiceNoodles/HotRiceNoodles/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/HotRiceNoodles/HotRiceNoodles/output/github-snake-dark.svg" alt="snake animation" />
+  </picture>
 </p>
 
 > 💡 上面这条贪吃蛇由 GitHub Action 定时生成，会自动「吞噬」你的提交记录。启用方法见文末。
